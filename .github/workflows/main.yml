@@ -36,3 +36,6 @@ jobs:
         
       - name: Build the solution
         run: msbuild sharksprayqa.sln
+        
+      - name: Run SpecFlow Tests 
+        uses: cryptic-wizard/run-specflow-tests@v1.2.0
