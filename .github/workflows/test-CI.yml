@@ -36,5 +36,5 @@ jobs:
       - name: Build the solution
         run: msbuild sharksprayqa.sln
         
-      - name: Tests 
+      - name: Test
         run : dotnet test --no-restore --verbosity normal
