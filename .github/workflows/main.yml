@@ -38,4 +38,4 @@ jobs:
         run: msbuild sharksprayqa.sln
         
       - name: Run SpecFlow Tests 
-        run : dotnet test --noretire --verbosity normal
+        run : msbuild test --no-restore --verbosity normal
