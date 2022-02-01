@@ -37,6 +37,6 @@ jobs:
       - name: Build the solution
         run: msbuild sharksprayqa.sln
         
-      - name: Run SpecFlow Tests 
+      - name: Run SpecFlow Test
         run : dotnet test --no-restore --verbosity normal
   
